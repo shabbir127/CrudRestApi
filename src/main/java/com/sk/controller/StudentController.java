@@ -23,7 +23,7 @@ public class StudentController {
 	StudentRepository repo;
 	
 	
-	//get all student
+	//get all students...
 	@GetMapping("/students")
 	public List<Student> getAllStudents()
 	{
